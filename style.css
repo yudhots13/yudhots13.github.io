@@ -1,0 +1,40 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    outline-style: auto;
+}
+body {
+    background-color: pink; 
+    background-image: url(https://wisnuhari65.github.io/Background%20CSS.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color:#170386;
+    border-style: dotted;
+}
+td, th {
+    background-color: gainsboro;
+    border: 5px solid #000000;
+    text-align: center;
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color:#dddddd;
+}
+p {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    height: fit-content;
+    width: fit-content;
+}
